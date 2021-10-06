@@ -6,7 +6,7 @@ def fbx_merge():
 
     # get any geo node and copy the path #
     for x in child:
-        if x.type().name() == "geo":
+        if x.type().name() == "geo" and len(x.children()) > 0:
             path = x.children()[0].parm("file").eval()
             break
 
@@ -116,5 +116,4 @@ def fbx_merge():
 
 
 
-# run the function #
 fbx_merge()
