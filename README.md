@@ -11,3 +11,6 @@ To use this script -
 3. Move the python script in your scripts folder.
 4. Come out of the folder.
 5. Download the OPmenu.xml file and place it here.
+
+if everything goes right, it should look something like this - 
+![1681753736](https://user-images.githubusercontent.com/83639188/232570111-16acec54-5cf1-4bde-a785-2d2914dfb77d.png)
